@@ -22,10 +22,10 @@ class QuizInterface:
                                                      fill=THEME_COLOR)
         self.canvas.grid(column=0, row=1, columnspan=2, pady=50)
 
-        true_image = PhotoImage(file="./Day34/true.png")
+        true_image = PhotoImage(file="./Creating a GUI Quiz App/true.png")
         self.true_button = Button(image=true_image, highlightthickness=0, command=self.true_press)
         self.true_button.grid(column=0, row=2)
-        false_image = PhotoImage(file="./Day34/false.png")
+        false_image = PhotoImage(file="./Creating a GUI Quiz App/false.png")
         self.false_button = Button(image=false_image, highlightthickness=0, command=self.false_press)
         self.false_button.grid(column=1, row=2)
 
