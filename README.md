@@ -1,5 +1,4 @@
 # API-Endpoints-and-API-Parameters
-Sure, here's a README that describes all three scripts in your repository:
 
 # SMS Sending, GUI Quiz, and ISS Overhead Notifier
 
